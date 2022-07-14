@@ -42,7 +42,7 @@ import (
 
 const (
 	rsaKeySize   = 2048
-	duration365d = time.Hour * 24 * 365
+	duration365d = time.Hour * 24 * 365 * 10
 )
 
 var ErrStaticCert = errors.New("cannot renew static certificate")
